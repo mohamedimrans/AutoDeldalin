@@ -25,7 +25,6 @@ User = Client(name="user-account",
               )
               
 
-
 Bot = Client(session_name="auto-delete",
              api_id=API_ID,
              api_hash=API_HASH,
