@@ -18,15 +18,10 @@ START_MSG = "<b>Hai {},\nI'm a simple bot to delete group messages after a speci
 
 
 User = Client(name="user-account",
-              
-             session_string=SESSION,
-
+              session_string=SESSION,
               api_id=API_ID,
-
               api_hash=API_HASH,
-
               workers=300
-
               )
               
 
